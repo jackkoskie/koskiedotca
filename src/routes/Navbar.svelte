@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-md stick-top">
+<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
 	<div class="container">
 		<a href="#top" class="navbar-brand"
 			><span class="fw-lighter">Jack</span><span class="fw-bold">Koskie</span></a
