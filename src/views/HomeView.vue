@@ -59,8 +59,4 @@
 #contact {
   min-height: fit-content;
 }
-
-body {
-  overflow: hidden; /* Hide scrollbars */
-}
 </style>
