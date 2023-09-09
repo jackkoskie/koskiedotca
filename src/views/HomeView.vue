@@ -25,7 +25,7 @@
         </p>
         <p class="">My email is <a href="mailto:jack@koskie.ca">jack@koskie.ca</a>.</p>
 
-        <span class="d-flex flex-row gap-3 fs-3 mb-3">
+        <span class="d-flex flex-row gap-3 fs-2 mb-3">
           <a href="https://instagram.com/koskie.jack" class="link-dark"
             ><i class="bi bi-instagram"></i
           ></a>
