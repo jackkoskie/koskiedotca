@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
-      <a href="#top" class="navbar-brand"
+      <a href="/#top" class="navbar-brand"
         ><span class="fw-lighter">Jack</span
         ><span class="fw-bold">Koskie</span></a
       >
