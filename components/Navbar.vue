@@ -19,10 +19,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <NuxtLink to="#top" class="nav-link">Home</NuxtLink>
+            <NuxtLink to="/#top" class="nav-link">Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="#contact" class="nav-link">Contact Me</NuxtLink>
+            <NuxtLink to="/#contact" class="nav-link">Contact Me</NuxtLink>
+          </li>
+          <li class="nav-item">
+            <NuxtLink to="/now" class="nav-link">Now</NuxtLink>
           </li>
         </ul>
       </div>

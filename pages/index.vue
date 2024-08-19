@@ -12,7 +12,7 @@ const route = useRoute();
         >
           <h1 class="text-white pt-5 pt-lg-0">Hey, I'm Jack!</h1>
           <h3 class="text-white fw-lighter col-md-6">
-            A highschool student, web developer, drone photographer, musician,
+            A high school student, web developer, musician,
             and more!
           </h3>
         </div>
@@ -22,28 +22,20 @@ const route = useRoute();
     <section id="contact">
       <div class="container py-5">
         <h1>Contact Me</h1>
-        <h3 class="fw-normal col-md-4 my-4">
-          Have any questions? Do you want to hire me? Just want to chat?
+        <h3 class="fw-normal col-md-5 my-4">
+          Have any questions? Just want to chat?
         </h3>
         <p>
           The best way to reach me is by email. I do my best to reply to
-          everything I get within 24-48 hours. Please dont hesitate to reach
+          everything I get within 24-48 hours. Please don't hesitate to reach
           out!
         </p>
         <p class="">
           My email is <a href="mailto:jack@koskie.ca">jack@koskie.ca</a>.
         </p>
-
-        <span class="d-flex flex-row gap-3 fs-2 mb-3">
-          <NuxtLink to="https://instagram.com/koskie.jack" class="link-dark"
-            ><i class="bi bi-instagram"></i
-          ></NuxtLink>
-          <NuxtLink
-            to="https://www.facebook.com/profile.php?id=61551088465175"
-            class="link-dark"
-            ><i class="bi bi-facebook"></i
-          ></NuxtLink>
-        </span>
+        <p>
+          Want to know what I'm up to? Check out my <NuxtLink to="/now">/now</NuxtLink> page!
+        </p>
       </div>
     </section>
   </main>
