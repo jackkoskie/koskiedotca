@@ -4,7 +4,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<div class="hero bg-base-200 min-h-screen">
+<div class="hero min-h-screen bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Hey there!</h1>
@@ -15,7 +15,8 @@
 
 <style>
 	.hero {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('$lib/hero.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url('$lib/images/hero.jpg');
 		background-size: cover;
 		background-position: center;
 		position: relative;
