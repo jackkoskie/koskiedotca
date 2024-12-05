@@ -3,17 +3,41 @@
 	let { children } = $props();
 </script>
 
-<div class="navbar bg-base-300">
-	<div class="flex-1">
-		<a href="/" class="btn btn-ghost text-xl">Jack Koskie</a>
+<nav class="navbar bg-base-300">
+	<div class="navbar-start">
+		<div class="dropdown">
+			<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M4 6h16M4 12h8m-8 6h16"
+					/>
+				</svg>
+			</div>
+			<ul class="menu dropdown-content menu-md z-[1] mt-3 w-52 rounded-box bg-base-300 p-2 shadow">
+				<li><a href="/">Home</a></li>
+				<li><a href="https://github.com/jackkoskie">GitHub</a></li>
+				<li><a href="/contact">Contact Me</a></li>
+			</ul>
+		</div>
+		<a class="btn btn-ghost text-xl">Jack Koskie</a>
 	</div>
-	<div class="flex-none">
+	<div class="navbar-center"></div>
+	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<li><a href="/">Home</a></li>
 			<li><a href="https://github.com/jackkoskie">GitHub</a></li>
 			<li><a href="/contact">Contact Me</a></li>
 		</ul>
 	</div>
-</div>
+</nav>
 
 {@render children()}
