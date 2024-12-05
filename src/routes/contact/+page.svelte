@@ -10,7 +10,7 @@
 
 <div style="--url:{image}"></div>
 <div
-	class="hero relative min-h-screen bg-base-200 bg-cover bg-center"
+	class="hero relative min-h-[calc(100vh-4.22rem)] bg-base-200 bg-cover bg-center"
 	style="background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('{image}');"
 >
 	<div class="hero-content text-center">

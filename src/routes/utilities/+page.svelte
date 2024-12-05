@@ -6,7 +6,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto min-h-[calc(100vh-4.22rem)]">
 	<div class="w-full items-center pt-5">
 		<h1 class="text-3xl font-semibold">My Utilities</h1>
 	</div>

@@ -4,7 +4,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-[calc(100vh-4.22rem)] bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Hey there!</h1>
