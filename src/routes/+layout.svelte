@@ -22,7 +22,10 @@
 					/>
 				</svg>
 			</div>
-			<ul class="menu dropdown-content menu-md z-[1] mt-3 w-52 rounded-box bg-base-300 p-2 shadow">
+			<ul
+				tabindex="0"
+				class="menu dropdown-content menu-md z-[1] mt-3 w-52 rounded-box bg-base-300 p-2 shadow"
+			>
 				<li><a href="/">Home</a></li>
 				<li><a href="https://github.com/jackkoskie">GitHub</a></li>
 				<li><a href="/utilities">Utilities</a></li>
