@@ -1,11 +1,14 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import cg_sunset from '$lib/images/contact/cg-sunset.jpg';
+	import maple_lake from '$lib/images/contact/maple-lake.jpg';
+	import ropes_course from '$lib/images/contact/ropes-course.jpg';
 
 	let { data }: { data: PageData } = $props();
 
-	let images = ['cg-sunset.jpg', 'maple-lake.jpg', 'ropes-course.jpg'];
+	let images = [cg_sunset, maple_lake, ropes_course];
 
-	let image = `/src/lib/images/${images[Math.floor(Math.random() * images.length)]}`;
+	let image = images[Math.floor(Math.random() * images.length)];
 </script>
 
 <div style="--url:{image}"></div>
