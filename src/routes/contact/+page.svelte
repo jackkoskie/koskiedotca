@@ -4,12 +4,21 @@
 	import maple_lake from '$lib/images/contact/maple-lake.jpg';
 	import ropes_course from '$lib/images/contact/ropes-course.jpg';
 
+	import SEO from '$lib/components/SEO.svelte';
+
 	let { data }: { data: PageData } = $props();
 
 	let images = [cg_sunset, maple_lake, ropes_course];
 
 	let image = images[Math.floor(Math.random() * images.length)];
 </script>
+
+<SEO
+	siteName="Jack Koskie"
+	description="Need to contact me? Here's how!"
+	url="https://koskie.ca/contact"
+	pageName="Contact"
+/>
 
 <div style="--url:{image}"></div>
 <div

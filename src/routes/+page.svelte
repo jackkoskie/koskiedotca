@@ -1,8 +1,15 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import SEO from '$lib/components/SEO.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
+
+<SEO
+	siteName="Jack Koskie"
+	description="Hey! My name is Jack and this is my personal site."
+	url="https://koskie.ca"
+/>
 
 <div class="hero min-h-[calc(100vh-4.22rem)] bg-base-200">
 	<div class="hero-content text-center">

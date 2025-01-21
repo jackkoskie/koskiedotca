@@ -2,9 +2,17 @@
 	import type { PageData } from './$types';
 	import clock from '$lib/images/utilities/clock.png';
 	import groups from '$lib/images/utilities/groups.png';
+	import SEO from '$lib/components/SEO.svelte';
 
 	let { data }: { data: PageData } = $props();
 </script>
+
+<SEO
+	siteName="Jack Koskie"
+	description="Here are some of the utilities I have made. Check them out!"
+	url="https://koskie.ca/utilities"
+	pageName="Utilities"
+/>
 
 <div class="container mx-auto min-h-[calc(100vh-4.22rem)]">
 	<div class="w-full items-center pt-5">
