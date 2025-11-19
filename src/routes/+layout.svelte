@@ -10,9 +10,9 @@
 	<title>Jack Koskie</title>
 </svelte:head>
 
-<div class="navbar bg-base-100 shadow-sm">
-	<div class="navbar-start">
-		<div class="dropdown">
+<div class="navbar bg-base-100 shadow-sm" id="top">
+	<div class="mx-auto navbar-start items-center justify-center gap-1 text-center">
+		<div class="dropdown pe-0">
 			<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -39,13 +39,16 @@
 				<li><a href="/projects">My Projects</a></li>
 			</ul>
 		</div>
-		<a href="/#hero" class="btn text-2xl font-extrabold uppercase btn-ghost">Jack Koskie</a>
+		<a href="/#hero" class="btn ps-0 text-2xl font-extrabold uppercase btn-ghost lg:hidden"
+			>Jack Koskie</a
+		>
 	</div>
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<li><a href="/#about">About Me</a></li>
 			<li><a href="/projects">My Projects</a></li>
 		</ul>
+		<a href="/#top" class="btn text-2xl font-extrabold uppercase btn-ghost">Jack Koskie</a>
 	</div>
 </div>
 
