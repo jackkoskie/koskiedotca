@@ -9,8 +9,8 @@
 			Let's do something <span class="font-bold text-accent">amazing</span>...
 		</h2>
 		<div class="flex flex-row gap-3">
-			<a href="/#about" class="btn bg-base-100 btn-lg">About Me</a>
-			<a href="/projects" class="btn bg-base-100 btn-lg">My Projects</a>
+			<a href="/#about" class="btn btn-lg not-hover:bg-base-100 hover:btn-primary">About Me</a>
+			<a href="/projects" class="btn btn-lg not-hover:bg-base-100 hover:btn-primary">My Projects</a>
 		</div>
 	</div>
 </section>
@@ -39,15 +39,19 @@
 				very little resources therefore allowing me to make things unrestricted. I've also had the
 				opportunity this year to join the <a
 					href="https://ubcoaerospace.ca"
-					class="link transition-colors hover:text-primary">UBCO Aerospace</a
+					class="link transition-colors hover:text-primary"
+					target="_blank">UBCO Aerospace</a
 				>
-				<a href="https://ubcoaerospace.ca/uav/" class="link transition-colors hover:text-primary"
-					>UAV Team</a
+				<a
+					href="https://ubcoaerospace.ca/uav/"
+					class="link transition-colors hover:text-primary"
+					target="_blank">UAV Team</a
 				>
 				where write software for our drone to autonomously perform various tasks to compete at the
 				<a
 					href="https://www.aerialevolution.ca/annual-student-competition/"
 					class="link transition-colors hover:text-primary"
+					target="_blank"
 					>Aerial Evolution Association of Canada's National Student Unmanned Aircraft Competition</a
 				> in May of 2026.
 			</p>
@@ -67,8 +71,10 @@
 					href="/projects"
 					class="link transition-colors hover:text-primary">projects page</a
 				>. Want to connect? Send my an email at
-				<a href="mailto:jack@koskie.ca" class="link transition-colors hover:text-primary"
-					>jack@koskie.ca</a
+				<a
+					href="mailto:jack@koskie.ca"
+					class="link transition-colors hover:text-primary"
+					target="_blank">jack@koskie.ca</a
 				>
 			</p>
 		</div>
