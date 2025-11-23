@@ -16,8 +16,8 @@
 
 <a href="/projects/{slug}" class="hover-3d">
 	<!-- content -->
-	<div class="card w-96 bg-base-200 shadow-sm">
-		<figure class="h-48">
+	<div class="card w-92 bg-base-200 shadow-sm">
+		<figure class="h-46">
 			<img src={img} {alt} class="h-full w-full object-cover" />
 		</figure>
 		<div class="card-body">
