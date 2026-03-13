@@ -15,11 +15,11 @@
 	</div>
 </section>
 
-<section class="bg-accent text-accent-content" id="reflection">
+<!-- <section class="bg-accent text-accent-content" id="reflection">
 	<div class="container mx-auto flex flex-row items-center justify-center py-3">
 		<a class="text-lg font-bold hover:link" href="/apsc169">Read my reflection on APSC 169</a>
 	</div>
-</section>
+</section> -->
 
 <section id="about" class="min-h-screen">
 	<div class="container mx-auto flex flex-col py-15 xl:flex-row-reverse">
